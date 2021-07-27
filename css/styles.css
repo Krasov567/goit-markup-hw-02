@@ -11,12 +11,19 @@ ul {
 
 /* Logo*/
 .logo {
-  color: var(--accent-color);
+  color: var(--primary-text-color);
   text-decoration: none;
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
 }
+.logo .change{
+  color: var(--accent-color);
+}
+
 /*site-nav*/
 .site-nav .link {
   color: var(--primary-text-color);
@@ -24,6 +31,9 @@ ul {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -33,9 +43,13 @@ ul {
 
 .adress .link{
    color: var(--title-text-color);
+   text-decoration: none;
    font-family: Roboto;
    font-style: normal;
    font-weight: 500;
+   font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 .adress .link:hover,
 .adress .link:focus {
@@ -47,9 +61,91 @@ ul {
   color:var(--secondary-color);
   background-color: var(--accent-color);
 }
+/*Hero*/
+.hero-title{
+  color: var(--secondary-color);
+  background-color: var(--title-text-color);
+  font-family: Roboto;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.hero .button{
+  font-family: Roboto;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 
+}
+/*Section about-us*/ 
 
-/*Sections*/ 
+.about-us .title{
+  color:var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+ line-height: 16px;
+ letter-spacing: 0.03em;
+ text-transform: uppercase;
+}
+.about-us .text{
+  color:var(--title-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+ line-height: 24px;
+ letter-spacing: 0.03em;
+}
+/*Section what we do*/
 
+.actions{
+  color:var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+ line-height: 42x;
+ letter-spacing: 0.03em;
+ text-align: center;
+}
+/*Section our team*/
 
-
+.team .top-title{
+  color:var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+ line-height: 42x;
+ letter-spacing: 0.03em;
+ text-align: center;
+}
+.team .title{
+    color:var(--primary-text-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+   line-height: 19x;
+   letter-spacing: 0.03em;
+}
+  .team .text{
+      color:var(--title-text-color);
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+     line-height: 19x;
+     letter-spacing: 0.03em;
+  }
