@@ -9,40 +9,47 @@ ul {
   list-style: none;
 }
 
-/*Цвет основного текста
-#757575
-*/
-/*Цвет вторичного текста
-#212121
-*/
-/*Интерактивный цвет
-#2196F3
-*/
-/*Вспомагательный цвет
-#FFFFFF
-*/
+/* Logo*/
 .logo {
   color: var(--accent-color);
+  text-decoration: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
 }
 /*site-nav*/
 .site-nav .link {
   color: var(--primary-text-color);
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
 }
-/*hero*/
-.hero-title {
+
+.adress .link{
+   color: var(--title-text-color);
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: 500;
 }
-/*Sections*/
-.section-title {
-  color: #212121;
-  font-family: Roboto;
+.adress .link:hover,
+.adress .link:focus {
+  color: var(--accent-color);
 }
-/*button*/
-.button {
-  color: var(--secondary-color);
+
+/*Buttons*/
+.button{
+  color:var(--secondary-color);
   background-color: var(--accent-color);
 }
+
+
+/*Sections*/ 
+
+
+
