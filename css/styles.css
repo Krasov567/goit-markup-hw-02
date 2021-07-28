@@ -1,8 +1,9 @@
 :root {
   --primary-text-color: #212121;
-  --title-text-color: #757575;
+  --text-color: #757575;
   --accent-color: #2196f3;
   --secondary-color: #ffffff;
+  --footer-color:#2f303a;
 }
 
 ul {
@@ -11,9 +12,9 @@ ul {
 
 /* Logo*/
 .logo {
-  color: var(--primary-text-color);
+  color: var(--text-color);
   text-decoration: none;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -28,7 +29,7 @@ ul {
 .site-nav .link {
   color: var(--primary-text-color);
   text-decoration: none;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -42,9 +43,9 @@ ul {
 }
 
 .adress .link{
-   color: var(--title-text-color);
+   color: var(--text-color);
    text-decoration: none;
-   font-family: Roboto;
+   font-family: Roboto, sans-serif;
    font-style: normal;
    font-weight: 500;
    font-size: 14px;
@@ -64,8 +65,8 @@ ul {
 /*Hero*/
 .hero-title{
   color: var(--secondary-color);
-  background-color: var(--title-text-color);
-  font-family: Roboto;
+  background-color: var(--text-color);
+  font-family: Roboto, sans-serif;
    font-style: normal;
    font-weight: 900;
    font-size: 44px;
@@ -75,7 +76,7 @@ ul {
   text-transform: uppercase;
 }
 .hero .button{
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
    font-style: normal;
    font-weight: bold;
    font-size: 16px;
@@ -90,7 +91,7 @@ ul {
 
 .about-us .title{
   color:var(--primary-text-color);
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -99,8 +100,8 @@ ul {
  text-transform: uppercase;
 }
 .about-us .text{
-  color:var(--title-text-color);
-  font-family: Roboto;
+  color:var(--text-color);
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -111,7 +112,7 @@ ul {
 
 .actions{
   color:var(--primary-text-color);
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -123,7 +124,7 @@ ul {
 
 .team .top-title{
   color:var(--primary-text-color);
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -133,7 +134,7 @@ ul {
 }
 .team .title{
     color:var(--primary-text-color);
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -141,11 +142,72 @@ ul {
    letter-spacing: 0.03em;
 }
   .team .text{
-      color:var(--title-text-color);
-      font-family: Roboto;
+      color:var(--text-color);
+      font-family: Roboto, sans-serif;
       font-style: normal;
       font-weight: 500;
       font-size: 16px;
      line-height: 19x;
      letter-spacing: 0.03em;
   }
+
+  /*Footer*/
+  .foot{
+    background-color: var(--footer-color);
+  }
+  .logo-fut{
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+   line-height: 31x;
+   letter-spacing: 0.03em;
+  color:var(--secondary-color);
+  text-decoration: none;
+  }
+  .change-fut{
+    color: var(--accent-color);
+  }
+  .adress-foot .link{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+   line-height: 24x;
+   letter-spacing: 0.03em;
+   color:rgba(255,255,255,0.6);
+   text-decoration: none;
+  }
+.adress-foot .link:hover,
+.adress-foot .link:focus {
+  color: var(--accent-color);
+}
+.kiev{
+  font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+   line-height: 24x;
+   letter-spacing: 0.03em;
+   color:var(--secondary-color)
+}
+/*Portfolio*/
+
+.list .list-title{
+  font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+   line-height: 36x;
+   letter-spacing: 00.06em;
+  color: var(--primary-text-color);
+  }
+  .list .list-text{
+    font-family: Roboto, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+     line-height: 30x;
+     letter-spacing: 00.03em;
+    color:var(--text-color)
+    }
