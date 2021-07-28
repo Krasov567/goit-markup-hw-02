@@ -12,7 +12,7 @@ ul {
 
 /* Logo*/
 .logo {
-  color: var(--text-color);
+  color: var(--primary-text-color);
   text-decoration: none;
   font-family: Raleway, sans-serif;
   font-style: normal;
