@@ -60,7 +60,12 @@ ul {
 
 /*Buttons*/
 .button{
-  color:var(--secondary-color);
+  color:var(--primary-text-color);
+  background-color: #f5f4fa;
+}
+.button:hover,
+.button:focus {
+  color: var(--secondary-color);
   background-color: var(--accent-color);
 }
 /*Hero*/
@@ -84,7 +89,8 @@ ul {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-
+  background-color: var(--accent-color);
+  color:var(--secondary-color);
 }
 /*Section about-us*/ 
 
