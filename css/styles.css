@@ -6,7 +6,7 @@
   --footer-color:#2f303a;
 }
 
-.body{
+body{
   font-family: Roboto,sans-serif;
 }
 ul {
@@ -21,7 +21,7 @@ ul {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 .logo .change{
@@ -35,22 +35,27 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:focus{
   color: var(--accent-color);
 }
-
+.site-nav .studio{
+  color: var(--accent-color);
+}
+  .site-nav .portfolio{
+    color: var(--accent-color);
+  }
 .adress .link{
    color: var(--text-color);
    text-decoration: none;
    font-style: normal;
    font-weight: 500;
    font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .adress .link:hover,
@@ -75,7 +80,7 @@ ul {
    font-style: normal;
    font-weight: 900;
    font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
@@ -84,7 +89,7 @@ ul {
    font-style: normal;
    font-weight: bold;
    font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   display: flex;
   align-items: center;
   text-align: center;
@@ -99,7 +104,7 @@ ul {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
- line-height: 16px;
+ line-height: 1.14;
  letter-spacing: 0.03em;
  text-transform: uppercase;
 }
@@ -108,7 +113,7 @@ ul {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
- line-height: 24px;
+ line-height: 1.7;
  letter-spacing: 0.03em;
 }
 /*Section what we do*/
@@ -118,7 +123,7 @@ ul {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
- line-height: 42x;
+ line-height: 1.16;
  letter-spacing: 0.03em;
  text-align: center;
 }
@@ -129,7 +134,7 @@ ul {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
- line-height: 42x;
+ line-height: 1.16;
  letter-spacing: 0.03em;
  text-align: center;
 }
@@ -138,7 +143,7 @@ ul {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-   line-height: 19x;
+   line-height: 1.18;
    letter-spacing: 0.03em;
 }
   .team .text{
@@ -146,7 +151,7 @@ ul {
       font-style: normal;
       font-weight: 500;
       font-size: 16px;
-     line-height: 19x;
+     line-height: 1.18;
      letter-spacing: 0.03em;
   }
 
@@ -159,7 +164,7 @@ ul {
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
-   line-height: 31x;
+   line-height: 1.19;
    letter-spacing: 0.03em;
   color:var(--secondary-color);
   text-decoration: none;
@@ -171,7 +176,7 @@ ul {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-   line-height: 24x;
+   line-height: 1.7;
    letter-spacing: 0.03em;
    color:rgba(255,255,255,0.6);
    text-decoration: none;
@@ -184,7 +189,7 @@ ul {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-   line-height: 24x;
+   line-height: 1.7;
    letter-spacing: 0.03em;
    color:var(--secondary-color)
 }
@@ -194,7 +199,7 @@ ul {
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
-   line-height: 36x;
+   line-height: 2;
    letter-spacing: 00.06em;
   color: var(--primary-text-color);
   }
@@ -202,7 +207,7 @@ ul {
       font-style: normal;
       font-weight: normal;
       font-size: 16px;
-     line-height: 30x;
+     line-height: 1.87;
      letter-spacing: 00.03em;
     color:var(--text-color)
     }
